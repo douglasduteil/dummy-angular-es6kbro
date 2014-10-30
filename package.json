@@ -1,0 +1,34 @@
+{
+  "name": "dummy-angular-es6kbro",
+  "version": "0.0.0",
+  "description": "Angular dummy code with es6 / browserify / karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/douglasduteil/dummy-angular-es6kbro.git"
+  },
+  "author": "Douglas Duteil",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/douglasduteil/dummy-angular-es6kbro/issues"
+  },
+  "homepage": "https://github.com/douglasduteil/dummy-angular-es6kbro",
+  "devDependencies": {
+      "angular-mocks": "^1.3.0",
+      "assert": "angular/assert#dist",
+      "browserify": "^6.2.0",
+      "es6ify": "^1.5.1",
+      "karma": "^0.12.24",
+      "karma-bro": "^0.9.0",
+      "karma-chrome-launcher": "^0.1.5",
+      "karma-jasmine": "^0.1.5",
+      "karma-phantomjs-launcher": "^0.1.4",
+      "watchify": "^2.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.3.0"
+  }
+}
